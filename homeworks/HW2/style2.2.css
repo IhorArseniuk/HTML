@@ -6,17 +6,21 @@ body{
     background-color: coral;
 }
 .box-storage{
-    height: 100vh;
+    height: 1000px;
     display: flex;
     justify-content: space-evenly;
-    aligin-items: center;
+    align-items: center;
 }
 .square{
     width: 100px;
-    heidht: 100px;
+    height: 100px;
     background-color: red;
+    transition: 1s;
+
 }
 .square:hover{
-    bacground-color: gray;
+    background-color: gray;
     border-radius:50%;
+    transition: 2s;
+    transform: scale(1.5)
 }
