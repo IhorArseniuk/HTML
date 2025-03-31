@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 50px 0px;
+}
+.fridge{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+.product{
+    width: 300px;
+    height:400px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+img{
+    width: 250px;
+    height: 300px;
+
+}
+.product h3{
+    margin-top:30px;
+}
