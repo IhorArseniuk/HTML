@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: coral;
+}
+.box-storage{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    aligin-items: center;
+}
+.square{
+    width: 100px;
+    heidht: 100px;
+    background-color: red;
+}
+.square:hover{
+    bacground-color: gray;
+    border-radius:50%;
+}
