@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: forestgreen;
+}
+.year{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:60px;
+}
+.month{
+    width: 200px;
+    height: 200px;
+    background-color: darkseagreen;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:10px;
+    border-radius:5px;
+    transition: 1s;
+}
+.mounth:hover{
+    transform: scale(1.2);
+    transition:2s;
+}
