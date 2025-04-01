@@ -29,6 +29,8 @@ img{
 }
 .product h3{
     margin-top:30px;
+    font-size: 25px;
+    font-weight: 600;
 }
 hr{
     margin: 20px 0;
