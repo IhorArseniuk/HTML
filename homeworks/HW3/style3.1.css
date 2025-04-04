@@ -9,45 +9,37 @@
 body{
     margin:40px 170px;
 }
-header{
-
-    height: 50vh;
-    background-color: blue;
+ header, section, footer{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
 }
-header p{
+header{
     color: white;
     font-size: 50px;
+    height: 50vh;
+    background-color: blue;
 }
 main{
-    margin-top:40px;
     display: flex;
+    margin-top:40px;
     justify-content: space-between;
     gap: 40px ;
-    border-radius: 5px;
 }
 main .big{
     height: 55vh;
     width: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:darkblue;
     color: white;
     font-size: 35px;
-    border-radius: 5px;
+
 }
 footer{
     height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: blue;
     color: white;
     font-size: 50px;
  margin-top:40px;
-    border-radius: 5px;
+
 }
