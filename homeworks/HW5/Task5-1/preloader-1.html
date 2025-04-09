@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height:100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+diV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation:figures 15s linear infinite alternate; /*------можна і без infinite -------*/
+
+}
+@keyframes figures{
+    from{
+        width:100px;
+        height:100px;
+        background-color: red;
+
+
+    }
+    10%{ width:150px;
+        height:300px;
+        background-color: blue;
+        transform: rotate(36deg);
+    }
+    20%{
+        height:200px;
+        width:250px;
+        transform: rotate(72deg);
+        background-color: #441818;
+    }
+    30%{
+          width:250px;
+        height:50px;
+        transform: rotate(108deg);
+        background-color: yellow;
+    }
+    40%{
+        width:300px;
+        height:100px;
+        transform: rotate(143deg);
+        background-color: lightgreen;
+    }
+    50%{
+        width:350px;
+        height:200px;
+        transform: rotate(179deg);
+        background-color: darkslategray;
+    }
+    60%{
+        width:100px;
+        height:200px;
+        transform: rotate(215deg);
+        background-color: chartreuse;
+    }
+    70%{
+        width:100px;
+        height:250px;
+        transform: rotate(251deg);
+        background-color: gold;
+    }
+    80%{
+        width:150px;
+        height:300px;
+        transform: rotate(287deg);
+        background-color: rosybrown;
+    }
+
+    90%{
+        height:200px;
+        width:350px;
+        border-radius:50%;
+        background-color: aqua;
+        transform: rotate(323deg);
+    }
+    to{
+
+         width: 100px;
+        height: 100px;
+        background-color: fuchsia;
+        transform: rotate(360deg);
+    }
+}
+</style>
+<body>
+<div class="preloader">
+  LOADING
+</div>
+</body>
+</html>
