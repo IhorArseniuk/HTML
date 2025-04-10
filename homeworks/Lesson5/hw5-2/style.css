@@ -5,3 +5,9 @@
     list-style: none;
     text-decoration: none;
 }
+.w-1440{
+    background-color:#1E1E1E;;
+    margin: 0 auto;
+    width: 1440px;
+    height: 3004px;
+}
