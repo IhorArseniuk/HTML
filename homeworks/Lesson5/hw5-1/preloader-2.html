@@ -6,13 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width:100vw;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
         div{
+            height:400px;
+            width: 500px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction:column;
 
+        }
+        .road{
+            height: 400px;
+            width:400px;
+        }
+        .knight{
+            display: block;
+            width:100px;
+            height:100px;
+            animation: knight 30s ease infinite;
+        }
+       /* img:hover{
+            animation: knight 5s linear infinite;
+        }*/
+
+        @keyframes knight{
+            from{transform: translate(0,0);}
+            15% {transform: translateX(-110px);}
+            20%{ transform: translate(110px, -190px); }
+            25%{ transform: translate( -10px, -250px); }
+            /*30%{transform: translate(-1px,  -200px);}*/
+
+            to{
+
+            }
         }
     </style>
 </head>
 <body>
-
+<div>
+    <img class="road" src="IMG/Road.png" alt="Preloader">
+    <img class="knight" src="IMG/knight.png" alt="Preloader">
+</div>
 </body>
 </html>
 
