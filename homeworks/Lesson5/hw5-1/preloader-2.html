@@ -35,15 +35,17 @@
             display: block;
             width:100px;
             height:100px;
-            animation: knight 10s ease infinite;
+            animation: knight 30s ease infinite alternate;
         }
-       /* img:hover{
-            animation: knight 5s linear infinite;
-        }*/
-
         @keyframes knight {
             from {
                 transform: translate(0, 0);
+            }
+            5%{
+                transform: translateX(-70px);
+            }
+            10%{
+                transform: translate(-110px);
             }
             15% {
                 transform: translateX(-110px);
