@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+img{
+    width: 200px;
+    height: 200px;
+    animation: dragon 10s linear infinite alternate;
+}
+@keyframes dragon{
+    from{
+        transform: rotate(3600deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
