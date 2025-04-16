@@ -18,9 +18,10 @@ body{
     height: 100vh;
 }
 form{
-    border: 1px solid fuchsia;
     display: flex;
     flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
     width: 700px;
     height: 500px;
    border-radius: 10px;
@@ -28,27 +29,51 @@ form{
 }
 .top-text{
     height: 15vh;
+    width: 100%;
     background-color: rgba(30, 72, 72, 0.14);
     display: flex;
     justify-content: center;
     align-items: center;
-     font:  50px "Times New Roman", sans-serif;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+.top-text h3{
+    font-size: 40px;
+    font-weight: 400;
 }
 .input-group{
     display: flex;
     align-items:center;
     width:100%;
     flex-direction:column;
-    height:200px;
-    gap:40px
+    height:150px;
 }
 #username-or-email{
     margin-top:20px;
+    margin-bottom:40px;
 }
-input{
-    height: 40px;
+input[type=text], input[type=password]{
+    height:40px;
     width:500px;
+    padding-left: 5px;
+    border:1px solid gray;
 }
+.remember-me-submit{
+    display:flex;
+    justify-content: space-evenly;
+    gap: 140px;
+    align-items: center;
+    height: 100px;
+    width:100%;
+
+}
+form input[type=submit]{
+    width:100px;
+    height:30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color:rgba(30, 72, 72, 0.14);
+}
+
+
 
