@@ -22,14 +22,15 @@ form{
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
-    width: 700px;
-    height: 500px;
-   border-radius: 10px;
+    width: 41vw;
+    height: 40vh;
+   border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: white;
 }
 .top-text{
     height: 15vh;
-    width: 100%;
+    width: 41vw;
     background-color: rgba(30, 72, 72, 0.14);
     display: flex;
     justify-content: center;
@@ -37,7 +38,7 @@ form{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.top-text h3{
+.top-text>h3{
     font-size: 40px;
     font-weight: 400;
 }
