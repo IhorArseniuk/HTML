@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    min-width: 100vw;
+    gap:40px;
+    flex-direction: column;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:57vh;
+    width: 25vw;
+    border: 3px solid rgba(112, 112, 121, 0.32);
+}
+.insta-pic{
+    margin-top:40px;
+    width:70%;
+    height: 200px;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    height:100%
+}
+form>input[type=text], input[type=password]{
+    height:40px;
+    width:100%;
+    padding-left:5px;
+    margin-bottom:10px;
+}
+input:last-of-type{
+    margin-top:10px;
+    background-color:dodgerblue;
+    color:white;
+    border-radius:10px;
+    border:none;
+    font-weight: bold;
+    font-size:16px;
+    height:40px;
+    width:100%;
+    margin-bottom:30px;
+}
+input[type=submit]+p{
+    font:bold 14px/20px "Roboto", sans-serif;
+    color:gray;
+}
+.facebook{
+    height:50px;
+    width:100%;
+    color: rgba(0, 0, 255, 0.85);
+    font-weight:bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto 5px auto;
+}
+a{
+    color:rgba(0, 0, 255, 0.85);
+}
+.register{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+    border: 3px solid rgba(112, 112, 121, 0.32);
+    height:8vh;
+    width: 25vw;
+    font-weight:bold;
+}
+a:last-child{
+    color:dodgerblue;
+}
