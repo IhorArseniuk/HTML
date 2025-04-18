@@ -4,7 +4,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'inter', sans-serif;
+
 }
 body{
     height: 100vh;
@@ -27,10 +27,21 @@ body{
     flex-direction: column;
 }
 h2{
+    font-family: 'inter', sans-serif;
+    color: #000;
     font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 h2+p{
+    color: #000;
+    text-align: center;
+    font-family: 'inter', sans-serif;
     font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .circle{
     width: 100px;
@@ -40,7 +51,7 @@ h2+p{
     background: #FFFFFF;
     display:flex;
     justify-content:center;
-align-items: center;
+    align-items: center;
     position: absolute;
     top:-50px;
 }
@@ -51,3 +62,4 @@ img{
     width: 60px;
     height: 60px;
 }
+
