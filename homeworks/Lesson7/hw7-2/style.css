@@ -5,6 +5,7 @@
     list-style-type: none;
     text-decoration: none;
     border: none;
+    font-family: "Inter", sans-serif;
 }
 body{    background: #24204A;}
 header {
@@ -26,7 +27,6 @@ header {
 }
 h3{
     color: #E5E5E5;
-    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -41,14 +41,14 @@ h3{
 }
 ul a{
     color:#E5E5E5;
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     opacity: 0.6;
 }
-.OnePosition{
+/*---------------------------One position-------------------------*/
+.onePosition{
     margin: 0 auto;
     width:1153px;
     height:692px;
@@ -72,7 +72,6 @@ ul a{
     background: #4B4864;
     flex-shrink: 0;
     color:#8E88C1;
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -83,7 +82,6 @@ ul a{
 .topH{
     width:261px;
     color: #FFF;
-    font-family: "Inter", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -94,7 +92,6 @@ ul a{
     width: 570px;
     height: 85px;
     color: #8E88C1;
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -109,23 +106,24 @@ ul a{
     box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
     color: #FFF;
     text-align: center;
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
-.OnePositionDivImg{
+.onePositionDivImg{
     margin-top: 67px;
     width: 375px;
     height: 411px;
     border-radius: 8px;
     background: #827EAC;
     box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
-    padding: 48px 28px 45px 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.OnePositionImg{
-    width: 318px;
+.onePositionImg{
     height: 318px;
 }
+/*-------------------------------main----------------------*/
 main{
     width: 100%;
     height: 764px;
@@ -136,6 +134,7 @@ main{
     align-items:center;
     gap:50px;
 }
+/*-------------------------- main top section-------------------------*/
 .mainTopSection{
     margin-top: 50px;
     width:1153px;
@@ -162,15 +161,15 @@ main{
     width: 32.082px;
     height: 32px;
 }
-.orange{background: #FF6853;}
-.pink{background: #FF537C;}
-.seawave{background: #80D2C4;}
-.blue{background: #3F50E7;}
-.green{background: #95CB7C;}
+.mainTopSection div:nth-child(1) div:nth-child(1){background: #FF6853;}
+.mainTopSection div:nth-child(2) div:nth-child(1){background: #FF537C;}
+.mainTopSection div:nth-child(3) div:nth-child(1){background: #80D2C4;}
+.mainTopSection div:nth-child(4) div:nth-child(1){background: #3F50E7;}
+.mainTopSection div:nth-child(5) div:nth-child(1){background: #95CB7C;}
 .temperatureNum{
     width: 38.098px;
     color: #FFF;
-    font-family: "Inter", sans-serif;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -179,33 +178,32 @@ main{
 .temperatureText{
     width: 101.26px;
     color: #8E88C1;
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.8px;
 }
-.mainMidleText{
+/*-----------------------------main middle----------------------*/
+.mainMiddleText{
     width: 1074px;
     color: #FFF;
     text-align: center;
-    font-family: "Inter", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 42px; /* 116.667% */
 }
-.mainMidleP{
+.mainMiddleP{
     color: #8E88C1;
     text-align: center;
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.8px;
 }
+/*------------------------------------main bottom section----------------------------*/
 .mainBottomSection{
     margin: 0 auto;
     width:1153px;
@@ -234,14 +232,14 @@ main{
     width: 178px;
     color:  #8E88C1;
     text-align: center;
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px; /* 125% */
     letter-spacing: 0.8px;
 }
+/*--------------------------------------------map---------------------------------*/
 iframe{
-    width:100%;
+    width: 100%;
     height: 664px;
 }
 .map{
@@ -250,6 +248,7 @@ iframe{
     justify-content: center;
     align-items: center;
 }
+/*-----------------------------------------footer-----------------------------------------*/
 footer{
     width: 100%;
     height: 94px;
@@ -259,7 +258,6 @@ footer{
 }
 footer>p{
     color: #FFF;
-    font-family: "Inter", sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 200%; /* 24px */
