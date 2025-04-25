@@ -1,0 +1,25 @@
+@media screen and (max-width:480px){
+    section{
+        width: 100%;
+        padding:32px 16px;
+    }
+    section .holder {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .holder .box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:40px;
+        text-align: center;
+    }
+    .box+div{
+        width:100%;}
+
+}
