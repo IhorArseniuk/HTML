@@ -1,0 +1,22 @@
+@media screen and (max-width:768px) {
+    section {
+        width: 100%;
+        padding: 32px 16px;
+    }
+
+    section > .container {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .container>div{
+        width:100%;
+        height:220px;
+    }
+    div>img{
+        width:128px;
+        height:128px;
+    }
+    h3{
+        margin: 16px 0 8px 0;
+    }
+}

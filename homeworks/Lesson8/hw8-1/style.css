@@ -23,8 +23,6 @@ section .holder{
 .box+div{
     width: 372px;
 }
-.box img{
-    width: 100%;
 }
 h3{
     margin: 20px 0 15px 0;
