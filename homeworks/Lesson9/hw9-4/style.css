@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    height: 100vh;
+    background-color: #8D8484;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:20vh 60vh 20vh;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+header{
+    background: #8D8484;
+    grid-area: header;
+    color: #000;
+    font-family: "Inter",serif;
+    font-size: 45px;
+    font-weight: 400;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+main{
+    display:grid;
+    grid-area: main;
+    grid-template-columns:73% 27%;
+    grid-template-rows:33.3% 16.65% 16.65% 33.3%;
+    grid-template-areas:
+    "section1 top"
+    "section2 top"
+    "section2 bottom"
+    "section3 bottom"
+}
+section, aside{
+    color: #FFF;
+    font-family: "Inter",serif;
+    font-size: 45px;
+    font-weight: 400;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.top{
+    grid-area: top;
+    background: #937575;
+}
+.bottom{
+    grid-area: bottom;
+    background: #644C4C;
+}
+.section1{
+    grid-area: section1;
+    background: #776969;
+}
+.section2{
+    grid-area: section2;
+    background: #643030;
+}
+.section3{
+    grid-area: section3;
+    background: #441818;
+}
+footer{
+    grid-area: footer;
+    background: #BDBDBD;
+    color: #000;
+    font-family: "Inter",serif;
+    font-size: 45px;
+    font-weight: 400;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
